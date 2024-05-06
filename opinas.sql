@@ -78,7 +78,7 @@ CREATE TABLE `relatorio` (
 --
 
 INSERT INTO `relatorio` (`id`, `nome`, `senha`) VALUES
-(0, 'randson.farias', 'Studioart1@');
+(0, 'Admin', 'AdminAdmin');
 
 -- --------------------------------------------------------
 
