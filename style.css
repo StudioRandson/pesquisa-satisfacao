@@ -1,0 +1,82 @@
+.form-horizontal{
+    margin-right: 50px;
+}
+
+
+.b0 {
+    background: linear-gradient(to right, #89060a, #bc070c);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+  }
+
+  .b1 {
+    background: linear-gradient(to right, #e4001b, #f80623);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+  }
+
+  .b2 {
+    background: linear-gradient(to right, #ff3208, #fa5635);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+  }
+
+  
+  .b3 {
+    background: linear-gradient(to right, #ff6200, #fc7928);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+  }
+
+  .b4 {
+    background: linear-gradient(to right, #f7af02, #fbbf2f);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+  }
+
+  .b5 {
+    background: linear-gradient(to right, #ffd40b, #fcda3d);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+  }
+
+  .b6 {
+    background: linear-gradient(to right, #e5eb03, #f3f915);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+  }
+
+  .b7 {
+    background: linear-gradient(to right, #c3db0e, #e6fc31);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+  }
+
+  .b8 {
+    background: linear-gradient(to right, #b8ee00, #bdf600);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+  }
+
+  .b9 {
+    background: linear-gradient(to right, #9ce414, #9ff402);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+  }
+
+  .b10 {
+    background: linear-gradient(to right, #2cc43d, #2bf241);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+  }

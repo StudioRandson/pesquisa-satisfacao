@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="icon" href="img/favicon.ico" type="img/x-icon" /> -->
+        <title>Pesquisa</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+        <style>
+           
+    
+            h1{
+                color: black;
+                font-weight: bold;
+                margin-top: -10px;
+                
+               
+            }
+            .btn1{
+                align-items: center;
+                width: 220px;
+                height: 40%;
+                font-size: 30px;
+                border-radius: 10px;                
+            }
+            .logo{
+				width: 250px;
+				padding-top: 15vh;
+			}
+
+           .modal{
+            margin-top: 20vh;
+           }
+
+            @media only screen and (max-width: 768px) {
+                body {
+                    /* Oculta a imagem de fundo para tablets e celulares */
+                    background-image: none;
+                }
+            }
+            
+        </style>
+    <body>
+        
+        <div class="container theme-showcase text-center" role="main">
+            <div class="page text center">
+                <img src="img/logo.png" class="logo">
+                <h1>Pesquisa de Satisfação</h1>                
+            </div>
+           
+                <a href="index.php"><button type="button" class="btn btn-success btn1">Iniciar</button></a>
+        
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Agradecemos o seu Feedback!</h4>
+                    </div>
+                    <div class="modal-body">
+                        Pesquisa Realizada com Sucesso!
+                    </div>
+                    <div class="modal-footer">
+                        <a href="index.php"><button type="button" class="btn btn-success">Inicio</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+		<?php
+			$situacao_usuario = "pendente";
+			if($situacao_usuario == "pendente"){ ?>
+				<script>
+					$(document).ready(function(){
+						$('#myModal').modal('show');
+					});
+				</script>
+		<?php } ?>
+	
+    </body>
+</html>
